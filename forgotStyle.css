@@ -9,7 +9,7 @@ min-height: 100vh;
 width: 100%;
 overflow: hidden;
 }
-.form-login{
+.forgot {
 display: flex;
  background: #111;
 position: absolute;
@@ -21,16 +21,16 @@ gap: 20px;
  padding: 50px;
 border-radius: 20px;
 }
-.form-login h2{
+.forgot h2{
 padding-left: 80px;
 font-size: 2em;
 color: #fff;
 }
-.form-login label{
+.forgot label{
 color: #fff; 
 font-size: 1em;
 }
-.form-login input{
+.forgot input{
 padding: 12px 20px ;
 border-radius: 50px;
 font-size: 1.2em;
@@ -40,25 +40,15 @@ background: transparent;
 box-shadow: none;
 outline: none;
 }
-.form-login button[type="submit"] {
+.forgot button[type="submit"] {
 width: 100%;
-background: #fff;
-background: linear-gradient(45deg,#ff357a,#fff172);
+background: #0078ff;
+background: Linear-gradient(45deg,#ff357a,#fff172);
 border: none;
-border-radius: 50px;
+border-radius: 30px;
 padding: 10px 15px;
 cursor: pointer;
  }
-.form-login input::placeholder{
+.forgot input::placeholder{
  color: rgba(225, 225, 225, 0.75);
  }
-.form-login a{
-text-decoration: none;
-color: #fff;
-width: 100%;
-display:inline;
-position: relative;
- align-items: center;
-Justify-content: space-between;
-padding: 0 50px;
-}
